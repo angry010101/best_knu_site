@@ -1,11 +1,17 @@
 body {
 	padding: 0;
 	margin: 0;
+<<<<<<< HEAD
 	font-size: 120%;
+=======
+	background: url(../images/sea_search.jpg);
+	background-size:cover;
+>>>>>>> 0b23a00b6e33658e97fb4b93f7555d5e40632c0f
 }
 
 
 
+<<<<<<< HEAD
 .header { 
   position: relative;
   padding-right: 2%;
@@ -24,6 +30,23 @@ body {
 	position: absolute;
   bottom: 5%;
   margin-left: 30px;
+=======
+.header { grid-area: header; 
+min-height: 64px;
+	/*background: url(../images/sea_search.jpg); */
+	background-size:cover;
+display: flex;
+box-shadow: 0 0 12px rgba(0,0,0,0.5);;
+padding: 16px;
+padding-bottom: 0}
+
+.header .logo {
+	width: 92px;
+	height: 92px;
+
+	position: absolute;
+    margin-top: 4px;
+>>>>>>> 0b23a00b6e33658e97fb4b93f7555d5e40632c0f
 }
 
 .header .contact {
@@ -35,14 +58,53 @@ body {
   text-align: right;
 }
 
+<<<<<<< HEAD
 .navigation { 
   height: 50%;
+=======
+
+
+/* footer */
+
+
+.footer { grid-area: footer; }
+
+.footer {
+  display: flex;
+    text-align: center;
+    background: url(../images/sea_footer.jpg);
+    background-size:cover;
+}
+
+.footer * {
+  flex-grow: 1;
+  color: white;
+    flex-basis: 0;
+    padding: 16px;
+}
+
+.footer span {
+  white-space: pre-line; 
+}
+.footer .logo{
+  width: 96px;
+  max-width: 96px;
+  height: 96px;
+  max-height: 96px;
+}
+
+
+.navigation { 
+>>>>>>> 0b23a00b6e33658e97fb4b93f7555d5e40632c0f
   display: flex;
   flex-wrap: nowrap;
   text-decoration: none;
   list-style-type: none;
   justify-content: center;
+<<<<<<< HEAD
   align-items: center;
+=======
+>>>>>>> 0b23a00b6e33658e97fb4b93f7555d5e40632c0f
   margin: 0;
   padding: 0;
     align-self: flex-end;
@@ -50,7 +112,10 @@ body {
     flex: 3;
     background: #3f506b;
   }
+<<<<<<< HEAD
 
+=======
+>>>>>>> 0b23a00b6e33658e97fb4b93f7555d5e40632c0f
 .navigation a {
   display: inline;
   flex-grow: 1;
@@ -62,6 +127,7 @@ body {
 .navigation a:hover{
   background: black;
 }
+<<<<<<< HEAD
 
 
 /* footer */
@@ -116,3 +182,5 @@ body {
   font-size: 1em;
 }
 
+=======
+>>>>>>> 0b23a00b6e33658e97fb4b93f7555d5e40632c0f

@@ -1,6 +1,7 @@
 
 .grid-container {
   display: grid;
+<<<<<<< HEAD
   align-items: stretch;
   grid-template-columns: 1fr 3fr 3fr 1fr;
   grid-template-rows: 19vmin 81vmin 2fr auto 1fr;
@@ -71,6 +72,26 @@ h2 {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+=======
+  grid-template-columns: 1fr 724px 1fr;
+  /*grid-template-rows: 64px 2fr 2fr auto 96px;*/
+  grid-template-areas: "header header header" "form form ." "suggestion suggestion suggestion" "reviews reviews reviews" "footer footer footer";
+}
+
+
+
+.form { grid-area: form;  }
+.form .text {
+  padding-top:32px;
+  flex: 2;
+  text-align: right;
+  padding-right: 62px;
+  margin-left: 28px;
+}
+.form .form_wrapper {
+  flex: 1;
+  padding: 32px;
+>>>>>>> 0b23a00b6e33658e97fb4b93f7555d5e40632c0f
   background: #2b3454;
   text-align: left;
   opacity: 0.8;
@@ -111,6 +132,7 @@ h2 {
   float: right;
 }
 
+<<<<<<< HEAD
 form {
  margin: 32px;
 }
@@ -122,6 +144,49 @@ h1 {
   font-size: 2em;
   font-weight: 300;
 }
+=======
+
+.reviews { grid-area: reviews; }
+
+
+.navigation { 
+  display: flex;
+  flex-wrap: nowrap;
+  text-decoration: none;
+  list-style-type: none;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+    align-self: flex-end;
+    text-align: center;
+    flex: 3;
+    background: #3f506b;
+  }
+.navigation a {
+  display: inline;
+  flex-grow: 1;
+  padding: 8px;
+    flex-basis: 0;
+    color: white;
+   }
+
+.navigation a:hover{
+  background: black;
+}
+
+
+
+/* form css */
+
+.form {
+  display: flex;
+  color: white;
+  justify-content: space-between;
+  background: url(../images/sea_search.jpg);
+  background-size: cover;
+}
+/*suggestions*/
+>>>>>>> 0b23a00b6e33658e97fb4b93f7555d5e40632c0f
 
 .suggestion { 
   grid-area: suggestion;
@@ -129,6 +194,10 @@ h1 {
   text-align: center;
   padding: 12px;
   color: white;
+<<<<<<< HEAD
+=======
+    font-size: 24pt;
+>>>>>>> 0b23a00b6e33658e97fb4b93f7555d5e40632c0f
 }
 
 .carousel {
@@ -143,7 +212,11 @@ h1 {
 }
 
 .carousel .item_wrapper .item {
+<<<<<<< HEAD
   max-height: 380px;
+=======
+  max-height: 302px;
+>>>>>>> 0b23a00b6e33658e97fb4b93f7555d5e40632c0f
   width: 262px;
   background: white;
   margin: 0 auto;
@@ -151,7 +224,11 @@ h1 {
 
 .carousel .item .content_wrapper{
   width: 242px;
+<<<<<<< HEAD
   height: 380px;
+=======
+  height: 302px;
+>>>>>>> 0b23a00b6e33658e97fb4b93f7555d5e40632c0f
   background: url(../images/yacht1.jpg);
   background-size:cover;
   margin: 0 auto;
@@ -184,6 +261,7 @@ h1 {
   display: flex;
 
   align-items: center;
+<<<<<<< HEAD
     justify-content: space-around;
 }
 
@@ -195,6 +273,18 @@ h1 {
 
 .review_wrapper .text{
   width: 100%;
+=======
+    justify-content: center;
+}
+
+.reviews .review_wrapper{
+    padding: 48px;
+    flex: 1;
+    text-align: center;
+}
+
+.reviews .review_wrapper .text{
+>>>>>>> 0b23a00b6e33658e97fb4b93f7555d5e40632c0f
   text-align: left;
   padding: 6px
 }
