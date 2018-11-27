@@ -24,6 +24,9 @@
     flex: 3;
     background: #3f506b;
   }
+  .navigation img {
+  	flex-grow: 1;
+  }
 .navigation a {
   display: inline;
   flex-grow: 1;
